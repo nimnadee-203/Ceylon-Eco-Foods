@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #dff3e3; /* Soft eco green background */
+  color: #2c3e50;
+  height: 100%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;          /* Center horizontally */
+  justify-content: flex-start;  /* Top aligned */
+  padding: 40px 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Card container around h1 + p */
+.welcome-box {
+  background: #ffffff;
+  padding: 30px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;           /* Center text inside card */
+  margin-top: 30px;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Dashboard title */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #145a32;
+  margin-bottom: 10px;         /* Small gap between h1 and p */
+}
+
+/* Paragraph below title */
+.welcome-box p {
+  font-size: 18px;
+  color: #34495e;
+  margin-top: 0;
+  text-align: center;           /* Center inside card */
+  line-height: 1.6;
+}
