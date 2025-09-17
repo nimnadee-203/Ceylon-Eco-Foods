@@ -1,0 +1,64 @@
+.sidebar {
+  width: 220px;
+  background: #f8f9fa;
+  height: calc(100vh - 70px); /* full screen minus header */
+  border-right: 1px solid #ddd;
+  position: fixed;
+  top: 70px; /* below header */
+  left: 0;
+  overflow-y: hidden; /* prevent scrolling */
+  padding-top: 10px; /* smaller top padding */
+}
+
+.sidebar-profile {
+  text-align: center;
+  padding: 10px; /* reduce profile padding */
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-profile-pic {
+  width: 80px;  /* smaller profile pic */
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.sidebar-name {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.sidebar-role {
+  font-size: 11px;
+  color: gray;
+}
+
+.dashboard-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-li {
+  margin: 0;
+}
+
+.dashboard-li a {
+  display: block;
+  padding: 8px 12px; /* compact links */
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 5px;
+  font-size: 14px; /* slightly smaller text */
+}
+
+.dashboard-li a:hover {
+  background: #e0e0e0;
+}
+
+.active-link {
+  background-color: #4caf50;
+  color: white;
+}

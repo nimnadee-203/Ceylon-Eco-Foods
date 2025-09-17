@@ -1,0 +1,20 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* After header, we split sidebar + content */
+.layout-body {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar already styled in nav.css */
+.layout-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 220px; /* make space for sidebar */
+  margin-top: 70px;   /* make space for header */
+  overflow-y: auto;
+}
