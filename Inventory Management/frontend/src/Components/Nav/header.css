@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* logo+name left, profile right */
+  align-items: center;
+  background: #2e7d32; /* green */
+  color: white;
+  padding: 12px 24px;
+  height: 60px;
+  position: fixed;   /* always visible at top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;     /* sits above content */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Left section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.company-name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Right section */
+.header-right .profile-pic {
+  width: 50px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+}
