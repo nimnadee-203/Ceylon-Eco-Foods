@@ -37,10 +37,10 @@ function App() {
         </div>
       )}
 
-      {/* Main Content */}
+      {/* Employee Main Content */}
       <div style={{ flex: 1, padding: "20px" }}>
         <Routes>
-          <Route path="/" element={<DashboardHome />} />
+          <Route path="/emplyeeAdmin-home" element={<DashboardHome />} />
 
           {/* Employee Pages */}
           <Route path="/employee-login" element={<EmployeeLogin />} />
