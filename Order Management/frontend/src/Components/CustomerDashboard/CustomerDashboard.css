@@ -1,0 +1,32 @@
+.customer-dashboard .product-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.customer-dashboard .product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.customer-dashboard .product-image {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.customer-dashboard .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.customer-dashboard .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.customer-dashboard .btn-primary:hover {
+  background-color: #0056b3;
+}

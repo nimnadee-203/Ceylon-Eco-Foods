@@ -1,0 +1,88 @@
+/* Cart.css */
+
+/* Overall container spacing */
+.container {
+  max-width: 1200px;
+}
+
+/* Cart item card */
+.cart-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cart-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image */
+.cart-item img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Quantity selector buttons */
+.quantity-selector button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* Quantity input box */
+.quantity-selector input {
+  height: 30px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Product name */
+.cart-item h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Subtotal and total styling */
+.cart-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cart-item .btn-danger {
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+/* Checkout button */
+button.btn-success {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+button.btn-success:hover {
+  background-color: #45a049;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .cart-item img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  .cart-item .ms-3 {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,54 @@
+.admin-sidebar {
+  background-color: #f8f9fa;
+  width: 220px;
+  min-height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-sidebar .nav-item {
+  margin-bottom: 15px;
+}
+
+.admin-sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #495057;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.admin-sidebar .nav-link:hover {
+  background-color: #e9f5ee;
+  color: #28a745;
+}
+
+.admin-sidebar .nav-link.active {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.admin-sidebar .nav-link:hover .sidebar-icon {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
+.admin-sidebar .nav-link.active .sidebar-icon {
+  color: white; /* makes sure icon also turns white on active */
+}
+

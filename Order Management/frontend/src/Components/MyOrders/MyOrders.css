@@ -1,0 +1,22 @@
+.order-card {
+  border-radius: 10px;
+  transition: box-shadow 0.2s;
+}
+
+.order-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.order-header {
+  font-weight: 500;
+}
+
+.order-details {
+  background-color: #f9f9f9;
+  border-radius: 0 0 10px 10px;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+}
